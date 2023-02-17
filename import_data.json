@@ -1,3 +1,14 @@
+-- Importing Single Collection in Json Format
+
+{
+ "ID"  : 1,
+ "Category": "Food",
+ "Date" : "16-02-2023",
+ "Amount": 168,
+ "Description": "2 Lassies",
+ "PaymentMode": "UPI Payment"
+}
+-- Importing Multiple Collection in Json Format
 
 [
     {
@@ -17,7 +28,7 @@
         "PaymentMode": "CreditCard"
     },
     {
-        "ID": 1,
+        "ID": 3,
         "Category": "Sports",
         "Date": "16-02-2023",
         "Amount": 720,

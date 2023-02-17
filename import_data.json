@@ -1,38 +1,37 @@
 -- Importing Single Collection in Json Format
 
 {
- "ID"  : 1,
- "Category": "Food",
- "Date" : "16-02-2023",
- "Amount": 168,
- "Description": "2 Lassies",
- "PaymentMode": "UPI Payment"
+ "eventname" : "FarewellParty",
+   "eventdate"    :  "26-03-2023",
+    "eventlocation" : "Narayana College Vizag",
+    "guestlist"         : 1000,
+    "budget"             :  100000
 }
 -- Importing Multiple Collection in Json Format
 
 [
-    {
-        "ID": 1,
-        "Category": "Food",
-        "Date": "16-02-2023",
-        "Amount": 168,
-        "Description": "2 Lassies",
-        "PaymentMode": "UPI Payment"
-    },
-    {
-        "ID": 2,
-        "Category": "Shooping",
-        "Date": "16-02-2023",
-        "Amount": 500,
-        "Description": "Buy TShirt",
-        "PaymentMode": "CreditCard"
-    },
-    {
-        "ID": 3,
-        "Category": "Sports",
-        "Date": "16-02-2023",
-        "Amount": 720,
-        "Description": "Book Cricket Ground",
-        "PaymentMode": "Cash"
-    }
+{  "eventname" : "FarewellParty",
+   "eventdate"    :  "26-03-2023",
+    "eventlocation" : "Narayana College Vizag",
+    "guestlist"         : 1000,
+    "budget"             :  100000
+},
+{ "eventname" : "Birthday",
+   "eventdate"    :  "04-06-2023",
+    "eventlocation" : "A1 Funtion Hall Ongole",
+    "guestlist"         : 500,
+    "budget"             :  1000000
+},
+{ "eventname" : "Engagement",
+   "eventdate"    :  "10-04-2023",
+    "eventlocation" : "Luxaurious Hotel Godavari ",
+    "guestlist"         : 800,
+    "budget"             :  10000000
+},
+{ "eventname" : "BabyShower",
+   "eventdate"    :  "11-04-2023",
+    "eventlocation" : "Royal Convetion Hall Guntur",
+    "guestlist"         : 2000,
+    "budget"             :  10000000
+  }
 ]
